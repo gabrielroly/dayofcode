@@ -10,9 +10,21 @@
 <body>
     <h1 id="home">THIS IS A WEB SITE</h1>
     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime reprehenderit ad. Iusto quam eligendi impedit, ad culpa et! Voluptate eligendi nisi facere quidem, reiciendis corporis sit consequuntur magni quia.</P>
-    <script src="index.js"></script>
+    <br>
     <button type="button" onclick="on()" style="appearance: auto; padding: 20px;background-color: yellow;border-radius: 50px;">Turn on</button>
     <img id="bulb" src="assets/bulboff.png" alt="Bulb light" style="height: 600px;">
-    <button type="button" onclick="off()" style="padding: 20px;background-color: rgb(164, 164, 164);border-radius: 50px;">Turn off</button> 
+    <button type="button" onclick="off()" style="padding: 20px;background-color: rgb(164, 164, 164);border-radius: 50px;">Turn off</button>
+    <h2>Function I/O</h2>
+    <p>write a number for square function</p>
+    <form>
+        <label for="squareBase">Input a base number</label><br>
+        <input type="number" id="squareBase"><br>
+        <button type="button" onclick="square()">Send</button>
+    </form>
+    <h2 id="outputSquare"></h2>
+    <script src="index.js"></script>
+    <script src="./Functions/exampleOne.js"></script>
+     
+    
 </body>
 </html>
