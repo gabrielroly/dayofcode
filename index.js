@@ -1,13 +1,9 @@
-
-class ligth {
-
-    on(){
+function on(){
         const turnOnButton = document.getElementById('bulb').src='assets/bulbon.png';
         return turnOnButton;
     }
     
-    off(){
+function off(){
         const turnOnButtoff = document.getElementById('bulb').src='assets/bulboff.png';
         return turnOnButtoff;
         }
-}
